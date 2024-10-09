@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/naoki.tomita/Documents/calculator/fs/tests/Tests/Tests.fsproj": {}
+  },
+  "projects": {
+    "/Users/naoki.tomita/Documents/calculator/fs/fs.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/naoki.tomita/Documents/calculator/fs/fs.fsproj",
+        "projectName": "fs",
+        "projectPath": "/Users/naoki.tomita/Documents/calculator/fs/fs.fsproj",
+        "packagesPath": "/Users/naoki.tomita/.nuget/packages/",
+        "outputPath": "/Users/naoki.tomita/Documents/calculator/fs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/naoki.tomita/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/8.0.402/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.400, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/naoki.tomita/Documents/calculator/fs/tests/Tests/Tests.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/naoki.tomita/Documents/calculator/fs/tests/Tests/Tests.fsproj",
+        "projectName": "Tests",
+        "projectPath": "/Users/naoki.tomita/Documents/calculator/fs/tests/Tests/Tests.fsproj",
+        "packagesPath": "/Users/naoki.tomita/.nuget/packages/",
+        "outputPath": "/Users/naoki.tomita/Documents/calculator/fs/tests/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/naoki.tomita/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/8.0.402/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/naoki.tomita/Documents/calculator/fs/fs.fsproj": {
+                "projectPath": "/Users/naoki.tomita/Documents/calculator/fs/fs.fsproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Expecto": {
+              "target": "Package",
+              "version": "[10.2.1, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.400, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )",
+              "generatePathProperty": true
+            },
+            "YoloDev.Expecto.TestSdk": {
+              "target": "Package",
+              "version": "[0.14.3, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

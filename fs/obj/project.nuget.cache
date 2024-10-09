@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6H8Rd5FEYFA=",
+  "success": true,
+  "projectFilePath": "/Users/naoki.tomita/Documents/calculator/fs/fs.fsproj",
+  "expectedPackageFiles": [
+    "/Users/naoki.tomita/.nuget/packages/fsharp.core/8.0.400/fsharp.core.8.0.400.nupkg.sha512"
+  ],
+  "logs": []
+}
